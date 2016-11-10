@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TRUMPS WALL</title>
+    <meta name="contact" content="max knee: maxknee.com">
+    <script type="text/javascript">
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1; //January is 0!
+    var yyyy = today.getFullYear();
+
+    if(dd<10) {
+      dd='0'+dd
+    }
+
+    if(mm<10) {
+      mm='0'+mm
+    }
+
+    today = '<p>' + mm + '/' + dd + '/' + yyyy + '</p>';
+    window.onload = function() {
+      document.getElementById('date').innerHTML = today;
+    }
+    </script>
+  </head>
+  <body>
+    <div class="question">
+      <p>TRUMP's WALL</p>
+      <p>IS IT BUILT YET?</p>
+    </div>
+    <div class="answer">
+      <p>NO!</p>
+    </div>
+    <div id="date">
+    </div>
+  </body>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-3517537-11', 'auto');
+    ga('send', 'pageview');
+  </script>
+</html>
